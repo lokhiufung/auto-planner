@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="is_goal" attr.type="boolean"/>
+<graph edgedefault="directed"><node id="Develop an efficient process to manufacture profitable trading strategy">
+  <data key="d0">True</data>
+</node>
+<node id="Produce the first profitable trading strategy using the process">
+  <data key="d0">False</data>
+</node>
+<node id="Build a stable automated trading system for deploying strategies">
+  <data key="d0">False</data>
+</node>
+<node id="Establish a research center for developing new strategies">
+  <data key="d0">False</data>
+</node>
+<node id="Define the characteristics of a profitable strategy">
+  <data key="d0">False</data>
+</node>
+<node id="Obtain a robust backtesting framework">
+  <data key="d0">False</data>
+</node>
+<node id="Create a data pipeline for collecting historical market data">
+  <data key="d0">False</data>
+</node>
+<node id="Design system architecture for automated trading">
+  <data key="d0">False</data>
+</node>
+<node id="Analyze historical trading data to identify patterns">
+  <data key="d0">False</data>
+</node>
+<node id="Research market inefficiencies for potential opportunities">
+  <data key="d0">False</data>
+</node>
+<node id="Deploy the first protfitable trading strategy to live">
+  <data key="d0">False</data>
+</node>
+<node id="Obtain historical market data">
+  <data key="d0">False</data>
+</node>
+<node id="Obtain read-for-use historical data">
+  <data key="d0">False</data>
+</node>
+<node id="Obtain market inefficiencies or patterns with statistical significance">
+  <data key="d0">False</data>
+</node>
+<node id="Obtain a prototype trading strategy for backtesting">
+  <data key="d0">False</data>
+</node>
+<node id="Verify the performance of the prototype trading strategy on historical data">
+  <data key="d0">False</data>
+</node>
+<node id="Demonstrate the viablility of the efficient process to manufacture profitable trading strategy">
+  <data key="d0">False</data>
+</node>
+<edge source="Produce the first profitable trading strategy using the process" target="Deploy the first protfitable trading strategy to live"/>
+<edge source="Build a stable automated trading system for deploying strategies" target="Deploy the first protfitable trading strategy to live"/>
+<edge source="Establish a research center for developing new strategies" target="Analyze historical trading data to identify patterns"/>
+<edge source="Establish a research center for developing new strategies" target="Research market inefficiencies for potential opportunities"/>
+<edge source="Define the characteristics of a profitable strategy" target="Verify the performance of the prototype trading strategy on historical data"/>
+<edge source="Obtain a robust backtesting framework" target="Establish a research center for developing new strategies"/>
+<edge source="Create a data pipeline for collecting historical market data" target="Obtain read-for-use historical data"/>
+<edge source="Design system architecture for automated trading" target="Build a stable automated trading system for deploying strategies"/>
+<edge source="Analyze historical trading data to identify patterns" target="Obtain market inefficiencies or patterns with statistical significance"/>
+<edge source="Research market inefficiencies for potential opportunities" target="Obtain market inefficiencies or patterns with statistical significance"/>
+<edge source="Deploy the first protfitable trading strategy to live" target="Demonstrate the viablility of the efficient process to manufacture profitable trading strategy"/>
+<edge source="Obtain historical market data" target="Create a data pipeline for collecting historical market data"/>
+<edge source="Obtain read-for-use historical data" target="Establish a research center for developing new strategies"/>
+<edge source="Obtain market inefficiencies or patterns with statistical significance" target="Obtain a prototype trading strategy for backtesting"/>
+<edge source="Obtain a prototype trading strategy for backtesting" target="Verify the performance of the prototype trading strategy on historical data"/>
+<edge source="Verify the performance of the prototype trading strategy on historical data" target="Produce the first profitable trading strategy using the process"/>
+<edge source="Demonstrate the viablility of the efficient process to manufacture profitable trading strategy" target="Develop an efficient process to manufacture profitable trading strategy"/>
+</graph></graphml>
