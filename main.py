@@ -32,6 +32,15 @@ def main():
     node_19 = "Obtain a prototype trading strategy for backtesting"
     node_20 = "Verify the performance of the prototype trading strategy on historical data"
     node_21 = "Demonstrate the viablility of the efficient process to manufacture profitable trading strategy"
+    node_22 = "Deploy automated trading system to production"
+    node_23 = "Conduct system testing and validation"
+    node_24 = "Develop modules to handle data streams"
+    # TO BE ADDED TO THE GRAPH
+    node_25 = "Develop modules to handle portfolio updates"
+    node_26 = "Develop modules to handle order updates and order life cycles"
+    node_27 = "Develop modules to handle stream of market data"
+    node_28 = "Design the API for implementing strategy logic"
+    node_29 = "Record critical actions to monitor the the aligment of the strategy with the expected performance"
 
 
     graph.add_node(goal_node, is_goal=True)
@@ -43,8 +52,13 @@ def main():
     graph.add_node(node_5)
     graph.add_node(node_6)
     graph.add_node(node_7)
+    graph.add_node(node_8)
+    # graph.add_node(node_9)
+    # graph.add_node(node_10)
     graph.add_node(node_11)
     graph.add_node(node_12)
+    graph.add_node(node_13)
+    # graph.add_node(node_14)
     graph.add_node(node_15)
     graph.add_node(node_16)
     graph.add_node(node_17)
@@ -52,6 +66,12 @@ def main():
     graph.add_node(node_19)
     graph.add_node(node_20)
     graph.add_node(node_21)
+    graph.add_node(node_22)
+    graph.add_node(node_23)
+    graph.add_node(node_24)
+    graph.add_node(node_25)
+    graph.add_node(node_26)
+    graph.add_node(node_27)
 
 
     graph.add_edge(node_21, goal_node)
@@ -65,7 +85,8 @@ def main():
 
     # research center
     graph.add_edge(node_17, node_3)
-    graph.add_edge(node_4, node_20)
+    graph.add_edge(node_4, node_13)
+    graph.add_edge(node_13, node_20)
     graph.add_edge(node_5, node_3)
     graph.add_edge(node_11, node_18)
     graph.add_edge(node_12, node_18)
@@ -76,6 +97,9 @@ def main():
 
     # automated trading system
     graph.add_edge(node_7, node_2)
+    graph.add_edge(node_8, node_2)
+    graph.add_edge(node_23, node_22)
+    graph.add_edge(node_22, node_2)
 
     # Save and visualize the graph
     graph.save('project_graph.graphml')

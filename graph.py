@@ -75,7 +75,7 @@ class Graph:
         Visualize the graph using pyvis.
         :param file_name: The name of the HTML file to generate.
         """
-        pos = nx.spring_layout(self.G)  # Layout for graph positioning
+        pos = nx.spring_layout(self.G, seed=42)  # Layout for graph positioning
         # Assign colors: 'red' for goal nodes, 'blue' for regular nodes
         node_colors = [
             'red' if self.G.nodes[node].get('is_goal', False) else 'blue'

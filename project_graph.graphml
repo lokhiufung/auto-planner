@@ -24,10 +24,16 @@
 <node id="Design system architecture for automated trading">
   <data key="d0">False</data>
 </node>
+<node id="Implement risk management and position sizing modules">
+  <data key="d0">False</data>
+</node>
 <node id="Analyze historical trading data to identify patterns">
   <data key="d0">False</data>
 </node>
 <node id="Research market inefficiencies for potential opportunities">
+  <data key="d0">False</data>
+</node>
+<node id="Define metrics for evaluating strategy performance">
   <data key="d0">False</data>
 </node>
 <node id="Deploy the first protfitable trading strategy to live">
@@ -51,16 +57,27 @@
 <node id="Demonstrate the viablility of the efficient process to manufacture profitable trading strategy">
   <data key="d0">False</data>
 </node>
+<node id="Deploy automated trading system to production">
+  <data key="d0">False</data>
+</node>
+<node id="Conduct system testing and validation">
+  <data key="d0">False</data>
+</node>
+<node id="Develop modules to handle data streams">
+  <data key="d0">False</data>
+</node>
 <edge source="Produce the first profitable trading strategy using the process" target="Deploy the first protfitable trading strategy to live"/>
 <edge source="Build a stable automated trading system for deploying strategies" target="Deploy the first protfitable trading strategy to live"/>
 <edge source="Establish a research center for developing new strategies" target="Analyze historical trading data to identify patterns"/>
 <edge source="Establish a research center for developing new strategies" target="Research market inefficiencies for potential opportunities"/>
-<edge source="Define the characteristics of a profitable strategy" target="Verify the performance of the prototype trading strategy on historical data"/>
+<edge source="Define the characteristics of a profitable strategy" target="Define metrics for evaluating strategy performance"/>
 <edge source="Obtain a robust backtesting framework" target="Establish a research center for developing new strategies"/>
 <edge source="Create a data pipeline for collecting historical market data" target="Obtain read-for-use historical data"/>
 <edge source="Design system architecture for automated trading" target="Build a stable automated trading system for deploying strategies"/>
+<edge source="Implement risk management and position sizing modules" target="Build a stable automated trading system for deploying strategies"/>
 <edge source="Analyze historical trading data to identify patterns" target="Obtain market inefficiencies or patterns with statistical significance"/>
 <edge source="Research market inefficiencies for potential opportunities" target="Obtain market inefficiencies or patterns with statistical significance"/>
+<edge source="Define metrics for evaluating strategy performance" target="Verify the performance of the prototype trading strategy on historical data"/>
 <edge source="Deploy the first protfitable trading strategy to live" target="Demonstrate the viablility of the efficient process to manufacture profitable trading strategy"/>
 <edge source="Obtain historical market data" target="Create a data pipeline for collecting historical market data"/>
 <edge source="Obtain read-for-use historical data" target="Establish a research center for developing new strategies"/>
@@ -68,4 +85,6 @@
 <edge source="Obtain a prototype trading strategy for backtesting" target="Verify the performance of the prototype trading strategy on historical data"/>
 <edge source="Verify the performance of the prototype trading strategy on historical data" target="Produce the first profitable trading strategy using the process"/>
 <edge source="Demonstrate the viablility of the efficient process to manufacture profitable trading strategy" target="Develop an efficient process to manufacture profitable trading strategy"/>
+<edge source="Deploy automated trading system to production" target="Build a stable automated trading system for deploying strategies"/>
+<edge source="Conduct system testing and validation" target="Deploy automated trading system to production"/>
 </graph></graphml>
